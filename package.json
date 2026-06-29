@@ -1,0 +1,10 @@
+{
+  "name": "genichiro",
+  "private": true,
+  "scripts": {
+    "prettier": "prettier . --check"
+  },
+  "devDependencies": {
+    "prettier": "3.9.1"
+  }
+}
