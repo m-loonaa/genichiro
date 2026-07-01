@@ -4,8 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "node --experimental-strip-types --experimental-transform-types ./bin/www.ts",
-    "lint": "eslint ."
+    "start": "node --experimental-strip-types --experimental-transform-types ./bin/www.ts"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
