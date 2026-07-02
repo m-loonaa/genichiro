@@ -3,7 +3,6 @@ import { defineConfig } from 'eslint/config'
 import tseslint from 'typescript-eslint'
 import eslintConfigPrettier from 'eslint-config-prettier/flat'
 
-console.log('pwd', process.cwd())
 export default defineConfig({
   files: ['**/*.{js,ts}'],
   extends: [
