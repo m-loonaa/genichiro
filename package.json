@@ -4,7 +4,7 @@
   "scripts": {
     "prettier": "prettier . --check",
     "prepare": "husky",
-    "lint": "turbo lint"
+    "lint:server": "turbo --affected --filter=server lint"
   },
   "devDependencies": {
     "husky": "^9.1.7",
