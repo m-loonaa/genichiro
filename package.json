@@ -3,12 +3,14 @@
   "private": true,
   "scripts": {
     "prettier": "prettier . --check",
-    "prepare": "husky"
+    "prepare": "husky",
+    "lint": "turbo lint"
   },
   "devDependencies": {
     "husky": "^9.1.7",
     "lint-staged": "^17.0.8",
-    "prettier": "3.9.1"
+    "prettier": "3.9.1",
+    "turbo": "^2.10.2"
   },
   "packageManager": "pnpm@11.9.0"
 }
