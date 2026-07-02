@@ -28,6 +28,5 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      #
       - name: Run ESLint on server
         run: pnpm lint:server
