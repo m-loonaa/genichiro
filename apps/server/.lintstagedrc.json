@@ -1,0 +1,3 @@
+{
+  "*.{js,ts}": ["pnpm --filter server exec eslint --fix", "prettier --write"]
+}
