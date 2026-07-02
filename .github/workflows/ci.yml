@@ -30,4 +30,4 @@ jobs:
 
       # test
       - name: Run ESLint on server
-        run: pnpm --filter "{apps/server/**}[origin/main]" lint
+        run: pnpm --filter "apps/server[origin/main]" lint
