@@ -42,4 +42,5 @@ app.use(function (err: HttpError, req: Request, res: Response) {
   res.render('error')
 })
 
+var get
 export default app
